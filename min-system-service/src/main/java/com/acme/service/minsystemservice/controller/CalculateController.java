@@ -41,7 +41,7 @@ public class CalculateController {
 
     private double calculate(Expression expression) throws TException {
         // 创建 TTransport
-        TTransport transport = new TSocket("192.168.0.102", 9000, 2000);
+        TTransport transport = new TSocket("192.168.0.103", 9000, 2000);
         // 创建 TProtocol
         TProtocol protocol = new TBinaryProtocol(transport);
 
