@@ -9,5 +9,4 @@ public class MinSystemServiceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(MinSystemServiceApplication.class, args);
 	}
-
 }

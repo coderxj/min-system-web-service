@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb4a4ede-feb1-4290-b598-c7bdbcfbed8c" name="Default" comment="" />
+    <list default="true" id="cb4a4ede-feb1-4290-b598-c7bdbcfbed8c" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/min-system-service/src/main/java/com/acme/service/minsystemservice/thriftconfig/ThriftClientConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/min-system-service/src/main/java/com/acme/service/minsystemservice/util/NetWorkUtil.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/min-system-service/pom.xml" afterPath="$PROJECT_DIR$/min-system-service/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/min-system-service/src/main/java/com/acme/service/minsystemservice/MinSystemServiceApplication.java" afterPath="$PROJECT_DIR$/min-system-service/src/main/java/com/acme/service/minsystemservice/MinSystemServiceApplication.java" />
+      <change beforePath="$PROJECT_DIR$/min-system-service/src/main/java/com/acme/service/minsystemservice/controller/CalculateController.java" afterPath="$PROJECT_DIR$/min-system-service/src/main/java/com/acme/service/minsystemservice/controller/CalculateController.java" />
+      <change beforePath="$PROJECT_DIR$/min-system-service/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/min-system-service/src/main/resources/application.yml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/min-system-service/target/" />
@@ -13,35 +21,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MinSystemServiceApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/min-system-service/src/main/java/com/acme/service/minsystemservice/MinSystemServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="e#272#273#0" expanded="true" />
-                <element signature="e#341#342#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="CalculateController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/min-system-service/src/main/java/com/acme/service/minsystemservice/controller/CalculateController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="170">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,12 +34,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/min-system-service/.gitignore">
+      <file leaf-file-name="MinSystemServiceApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/min-system-service/src/main/java/com/acme/service/minsystemservice/MinSystemServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NetWorkUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/min-system-service/src/main/java/com/acme/service/minsystemservice/util/NetWorkUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThriftClientConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/min-system-service/src/main/java/com/acme/service/minsystemservice/thriftconfig/ThriftClientConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,19 +69,233 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/min-system-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="39" column="35" lean-forward="false" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+            <state relative-caret-position="1176">
+              <caret line="56" column="11" lean-forward="false" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="min-system-core-1.0.0-SNAPSHOT.pom" pinned="false" current-in-tab="false">
-        <entry file="file://$MAVEN_REPOSITORY$/com/acme/service/min-system-core/1.0.0-SNAPSHOT/min-system-core-1.0.0-SNAPSHOT.pom">
+      <file leaf-file-name="TSocket.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/thrift/libthrift/0.11.0/libthrift-0.11.0-sources.jar!/org/apache/thrift/transport/TSocket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="3864">
+              <caret line="215" column="26" lean-forward="false" selection-start-line="215" selection-start-column="26" selection-end-line="215" selection-end-column="26" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TCalculate.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/acme/service/min-system-core/1.0.0-SNAPSHOT/min-system-core-1.0.0-SNAPSHOT.jar!/com/acme/service/service/TCalculate.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20979">
+              <caret line="1109" column="25" lean-forward="false" selection-start-line="1109" selection-start-column="25" selection-end-line="1109" selection-end-column="25" />
+              <folding>
+                <marker date="1575205047000" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1575205047000" expanded="false" signature="148:2448" ph="..." />
+                <marker date="1575205047000" expanded="true" signature="2500:2507" ph="{}" />
+                <marker date="1575205047000" expanded="true" signature="2699:19518" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="3472:3483" ph="{}" />
+                <marker date="1575205047000" expanded="true" signature="3566:3659" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="3728:3972" ph="{...}" />
+                <marker date="1575205047000" expanded="false" signature="4027:4042" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="4087:4097" ph=" }" />
+                <marker date="1575205047000" expanded="true" signature="4127:4199" ph="{...}" />
+                <marker date="1575205047000" expanded="false" signature="4245:4260" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="4280:4290" ph=" }" />
+                <marker date="1575205047000" expanded="true" signature="4372:4444" ph="{...}" />
+                <marker date="1575205047000" expanded="false" signature="4480:4495" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="4515:4525" ph=" }" />
+                <marker date="1575205047000" expanded="false" signature="4564:4579" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="4607:4617" ph=" }" />
+                <marker date="1575205047000" expanded="true" signature="4670:4759" ph="{...}" />
+                <marker date="1575205047000" expanded="false" signature="4802:4817" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="4832:4842" ph=" }" />
+                <marker date="1575205047000" expanded="true" signature="4916:4978" ph="{...}" />
+                <marker date="1575205047000" expanded="false" signature="5009:5024" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="5039:5049" ph=" }" />
+                <marker date="1575205047000" expanded="false" signature="5083:5098" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="5121:5131" ph=" }" />
+                <marker date="1575205047000" expanded="true" signature="5179:5263" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="5356:5838" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="5919:6170" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="6244:6653" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="6698:6931" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="6997:8112" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="8144:8615" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="8681:10023" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="10100:10191" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="10253:10309" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="10372:10429" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="10464:11129" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="11180:11287" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="11365:11572" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="11671:11876" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="11947:12088" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="12105:12724" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="12832:14253" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="12884:12899" ph="{}" />
+                <marker date="1575205047000" expanded="true" signature="13001:13590" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="13691:14243" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="14344:14622" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="14403:14418" ph="{}" />
+                <marker date="1575205047000" expanded="true" signature="14507:14612" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="14736:17128" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="14791:14806" ph="{}" />
+                <marker date="1575205047000" expanded="true" signature="14908:16323" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="16426:17118" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="17222:17509" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="17284:17299" ph="{}" />
+                <marker date="1575205047000" expanded="true" signature="17391:17499" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="17570:19512" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="17932:18172" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="18271:18584" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="18672:18765" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="18829:18932" ph="{...}" />
+                <marker date="1575205047000" expanded="false" signature="18977:18996" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="19018:19032" ph=" }" />
+                <marker date="1575205047000" expanded="false" signature="19074:19093" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="19116:19130" ph=" }" />
+                <marker date="1575205047000" expanded="true" signature="19151:19502" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="19702:32194" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="20315:20326" ph="{}" />
+                <marker date="1575205047000" expanded="true" signature="20374:20433" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="20498:20614" ph="{...}" />
+                <marker date="1575205047000" expanded="false" signature="20667:20682" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="20725:20735" ph=" }" />
+                <marker date="1575205047000" expanded="false" signature="20764:20779" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="20795:20805" ph=" }" />
+                <marker date="1575205047000" expanded="false" signature="20841:20856" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="20872:20882" ph=" }" />
+                <marker date="1575205047000" expanded="true" signature="20948:21012" ph="{...}" />
+                <marker date="1575205047000" expanded="false" signature="21044:21059" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="21075:21085" ph=" }" />
+                <marker date="1575205047000" expanded="false" signature="21120:21135" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="21159:21169" ph=" }" />
+                <marker date="1575205047000" expanded="true" signature="21218:21303" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="21394:21659" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="21738:21923" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="21995:22328" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="22373:22602" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="22666:23311" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="23343:23611" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="23675:24451" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="24526:24615" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="24677:24733" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="24796:24853" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="24888:25266" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="25317:25416" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="25494:25701" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="25800:26005" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="26076:26217" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="26234:26677" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="26781:27762" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="26831:26846" ph="{}" />
+                <marker date="1575205047000" expanded="true" signature="26946:27323" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="27422:27752" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="27851:28119" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="27908:27923" ph="{}" />
+                <marker date="1575205047000" expanded="true" signature="28008:28109" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="28229:29933" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="28282:28297" ph="{}" />
+                <marker date="1575205047000" expanded="true" signature="28397:29379" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="29480:29923" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="30025:30302" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="30085:30100" ph="{}" />
+                <marker date="1575205047000" expanded="true" signature="30188:30292" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="30363:32188" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="30681:30862" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="30959:31270" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="31356:31447" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="31511:31614" ph="{...}" />
+                <marker date="1575205047000" expanded="false" signature="31659:31678" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="31700:31714" ph=" }" />
+                <marker date="1575205047000" expanded="false" signature="31756:31775" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="31798:31812" ph=" }" />
+                <marker date="1575205047000" expanded="true" signature="31833:32178" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="32299:36556" ph="{...}" />
+                <marker date="1575205047000" expanded="false" signature="32454:32469" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="32512:32522" ph=" }" />
+                <marker date="1575205047000" expanded="true" signature="32635:32699" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="32898:33024" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="33174:36550" ph="{...}" />
+                <marker date="1575205047000" expanded="false" signature="33206:33225" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="33244:33258" ph=" }" />
+                <marker date="1575205047000" expanded="false" signature="33327:33346" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="33385:33399" ph=" }" />
+                <marker date="1575205047000" expanded="true" signature="33519:36235" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="33588:36220" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="33653:34411" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="34466:36202" ph="{...}" />
+                <marker date="1575205047000" expanded="false" signature="36277:36296" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="36309:36323" ph=" }" />
+                <marker date="1575205047000" expanded="true" signature="36467:36540" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="36668:38346" ph="{...}" />
+                <marker date="1575205047000" expanded="false" signature="36813:36828" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="36871:36881" ph=" }" />
+                <marker date="1575205047000" expanded="true" signature="36981:37045" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="37223:37344" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="37466:38340" ph="{...}" />
+                <marker date="1575205047000" expanded="false" signature="37498:37517" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="37536:37550" ph=" }" />
+                <marker date="1575205047000" expanded="false" signature="37619:37638" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="37677:37691" ph=" }" />
+                <marker date="1575205047000" expanded="false" signature="37733:37752" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="37765:37779" ph=" }" />
+                <marker date="1575205047000" expanded="false" signature="37836:37855" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="37868:37882" ph=" }" />
+                <marker date="1575205047000" expanded="true" signature="38000:38330" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="38438:41144" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="38569:38642" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="38761:39076" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="39164:40493" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="39412:39540" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="39611:39900" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="39988:40483" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="40586:41138" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="40794:40917" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="41009:41128" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="41228:42794" ph="{...}" />
+                <marker date="1575205047000" expanded="false" signature="41267:41282" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="41300:41310" ph=" }" />
+                <marker date="1575205047000" expanded="false" signature="41367:41382" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="41402:41412" ph=" }" />
+                <marker date="1575205047000" expanded="true" signature="41510:41601" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="41672:41837" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="41926:42352" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="42442:42788" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="42473:42488" ph="{}" />
+                <marker date="1575205047000" expanded="false" signature="42552:42571" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="42606:42620" ph=" }" />
+                <marker date="1575205047000" expanded="true" signature="42703:42778" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="42828:42938" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="42967:43065" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InvocableHandlerMethod.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1869">
+              <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+              <folding>
+                <marker date="1564070551820" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1564070551820" expanded="false" signature="162:754" ph="..." />
+                <marker date="1564070551820" expanded="false" signature="1216:1227" ph=" { " />
+                <marker date="1564070551820" expanded="false" signature="1248:1254" ph=" }" />
+                <marker date="1564070551820" expanded="false" signature="1317:1328" ph=" { " />
+                <marker date="1564070551820" expanded="false" signature="1348:1354" ph=" }" />
+                <marker date="1564070551820" expanded="true" signature="1476:1532" ph="{...}" />
+                <marker date="1564070551820" expanded="true" signature="1611:1670" ph="{...}" />
+                <marker date="1564070551820" expanded="true" signature="1780:1831" ph="{...}" />
+                <marker date="1564070551820" expanded="true" signature="1925:1996" ph="{...}" />
+                <marker date="1564070551820" expanded="true" signature="2160:2419" ph="{...}" />
+                <marker date="1564070551820" expanded="true" signature="2581:4038" ph="{...}" />
+                <marker date="1564070551820" expanded="true" signature="4117:5209" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,23 +303,96 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/min-system-service/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="42">
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RestController.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE.jar!/org/springframework/web/bind/annotation/RestController.class">
+      <file leaf-file-name="Expression.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/acme/service/min-system-core/1.0.0-SNAPSHOT/min-system-core-1.0.0-SNAPSHOT.jar!/com/acme/service/Dto/Expression.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            <state relative-caret-position="630">
+              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding>
-                <marker date="1564070551820" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1564070551820" expanded="false" signature="163:459" ph="..." />
-                <marker date="1564070551820" expanded="true" signature="461:562" ph="@{...}" />
-                <marker date="1564070551820" expanded="true" signature="602:656" ph="@{...}" />
+                <marker date="1575205047000" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1575205047000" expanded="false" signature="144:1394" ph="..." />
+                <marker date="1575205047000" expanded="false" signature="2395:2406" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="2432:2438" ph=" }" />
+                <marker date="1575205047000" expanded="true" signature="2500:2663" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="2705:2941" ph="{...}" />
+                <marker date="1575205047000" expanded="false" signature="2975:2986" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="3014:3020" ph=" }" />
+                <marker date="1575205047000" expanded="true" signature="3046:3197" ph="{...}" />
+                <marker date="1575205047000" expanded="false" signature="3225:3236" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="3251:3257" ph=" }" />
+                <marker date="1575205047000" expanded="true" signature="3299:3349" ph="{...}" />
+                <marker date="1575205047000" expanded="false" signature="3376:3387" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="3402:3408" ph=" }" />
+                <marker date="1575205047000" expanded="false" signature="3438:3449" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="3472:3478" ph=" }" />
+                <marker date="1575205047000" expanded="true" signature="3522:3590" ph="{...}" />
+                <marker date="1575205047000" expanded="false" signature="3619:3630" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="3647:3653" ph=" }" />
+                <marker date="1575205047000" expanded="true" signature="3698:3785" ph="{...}" />
+                <marker date="1575205047000" expanded="false" signature="3814:3825" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="3898:3904" ph=" }" />
+                <marker date="1575205047000" expanded="false" signature="3936:3947" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="4002:4008" ph=" }" />
+                <marker date="1575205047000" expanded="true" signature="4054:4148" ph="{...}" />
+                <marker date="1575205047000" expanded="false" signature="4177:4188" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="4205:4211" ph=" }" />
+                <marker date="1575205047000" expanded="true" signature="4256:4343" ph="{...}" />
+                <marker date="1575205047000" expanded="false" signature="4372:4383" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="4456:4462" ph=" }" />
+                <marker date="1575205047000" expanded="false" signature="4494:4505" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="4560:4566" ph=" }" />
+                <marker date="1575205047000" expanded="true" signature="4612:4706" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="4778:5351" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="5411:5674" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="5727:6142" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="6183:6358" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="6403:7726" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="7754:8131" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="8176:9943" ph="{...}" />
+                <marker date="1575205047000" expanded="false" signature="9998:10009" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="10059:10065" ph=" }" />
+                <marker date="1575205047000" expanded="true" signature="10123:10171" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="10230:10279" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="10310:10919" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="10966:11123" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="11197:11380" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="11475:11695" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="11762:11895" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="11908:12492" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="12573:13881" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="12615:12626" ph="{}" />
+                <marker date="1575205047000" expanded="true" signature="12707:13291" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="13371:13875" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="13962:14164" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="14011:14022" ph="{}" />
+                <marker date="1575205047000" expanded="false" signature="14083:14098" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="14148:14158" ph=" }" />
+                <marker date="1575205047000" expanded="true" signature="14251:16657" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="14296:14307" ph="{}" />
+                <marker date="1575205047000" expanded="true" signature="14388:15901" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="15983:16651" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="16741:16952" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="16793:16804" ph="{}" />
+                <marker date="1575205047000" expanded="false" signature="16868:16883" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="16936:16946" ph=" }" />
+                <marker date="1575205047000" expanded="true" signature="17009:18694" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="17339:17589" ph="{...}" />
+                <marker date="1575205047000" expanded="true" signature="17667:17935" ph="{...}" />
+                <marker date="1575205047000" expanded="false" signature="18001:18016" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="18060:18070" ph=" }" />
+                <marker date="1575205047000" expanded="true" signature="18130:18221" ph="{...}" />
+                <marker date="1575205047000" expanded="false" signature="18262:18277" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="18299:18309" ph=" }" />
+                <marker date="1575205047000" expanded="false" signature="18347:18362" ph=" { " />
+                <marker date="1575205047000" expanded="false" signature="18385:18395" ph=" }" />
+                <marker date="1575205047000" expanded="true" signature="18412:18688" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -124,10 +418,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/min-system-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/min-system-service/.gitignore" />
+        <option value="$PROJECT_DIR$/min-system-service/src/main/java/com/acme/service/minsystemservice/MinSystemServiceApplication.java" />
         <option value="$PROJECT_DIR$/min-system-service/pom.xml" />
         <option value="$PROJECT_DIR$/min-system-service/src/main/java/com/acme/service/minsystemservice/controller/CalculateController.java" />
-        <option value="$PROJECT_DIR$/min-system-service/.gitignore" />
+        <option value="$PROJECT_DIR$/min-system-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/min-system-service/src/main/java/com/acme/service/minsystemservice/thriftconfig/ThriftClientConfig.java" />
       </list>
     </option>
   </component>
@@ -166,20 +462,20 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="min-system-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="com.acme.service:min-system-core:1.0.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="com.acme:regist-center-core:1.0.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="min-system-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="com.acme.service:min-system-core:1.0.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="com.acme:regist-center-core:1.0.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
           <item name="org.apache.thrift:libthrift:0.11.0" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="829" />
@@ -237,8 +533,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -333,6 +627,32 @@
               <item name="min-system-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="acme" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="minsystemservice" type="462c0819:PsiDirectoryNode" />
+              <item name="thriftconfig" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="min-system-web-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="min-system-web-service" type="462c0819:PsiDirectoryNode" />
+              <item name="min-system-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="acme" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="minsystemservice" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="min-system-web-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="min-system-web-service" type="462c0819:PsiDirectoryNode" />
+              <item name="min-system-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -392,11 +712,88 @@
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="minsystemservice" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="min-system-web-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="min-system-web-service" type="462c0819:PsiDirectoryNode" />
+              <item name="min-system-service" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="min-system-web-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="min-system-web-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.thrift:libthrift:0.11.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="min-system-web-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.thrift:libthrift:0.11.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="libthrift-0.11.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="min-system-web-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.thrift:libthrift:0.11.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="libthrift-0.11.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="min-system-web-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.thrift:libthrift:0.11.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="libthrift-0.11.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="min-system-web-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.thrift:libthrift:0.11.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="libthrift-0.11.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="thrift" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="min-system-web-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.thrift:libthrift:0.11.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="libthrift-0.11.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="thrift" type="462c0819:PsiDirectoryNode" />
+              <item name="async" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="min-system-web-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.thrift:libthrift:0.11.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="libthrift-0.11.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="thrift" type="462c0819:PsiDirectoryNode" />
+              <item name="meta_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="min-system-web-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.thrift:libthrift:0.11.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="libthrift-0.11.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="thrift" type="462c0819:PsiDirectoryNode" />
+              <item name="protocol" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -413,6 +810,11 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/min-system-service/src/main/java/com/acme/service/minsystemservice" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -529,46 +931,51 @@
       <option name="presentableId" value="Default" />
       <updated>1564070184159</updated>
       <workItem from="1564070187117" duration="4179000" />
+      <workItem from="1574692851046" duration="12841000" />
+      <workItem from="1575205043383" duration="3000" />
+      <workItem from="1575206977038" duration="482000" />
+      <workItem from="1575259201407" duration="1058000" />
+      <workItem from="1575287403097" duration="3000000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4179000" />
+    <option name="totallyTimeSpent" value="23280000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="829" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Translate" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Translate" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3994374" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Readhub" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="leetcode" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Readhub" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.628692" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="leetcode" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -578,31 +985,117 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="16" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/min-system-service/src/main/java/com/acme/service/minsystemservice/MinSystemServiceApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/thrift/libthrift/0.11.0/libthrift-0.11.0.jar!/org/apache/thrift/protocol/TMap.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="84">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/thrift/libthrift/0.11.0/libthrift-0.11.0.jar!/org/apache/thrift/protocol/TProtocolUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2247">
+          <caret line="113" column="1" lean-forward="false" selection-start-line="113" selection-start-column="1" selection-end-line="113" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/thrift/libthrift/0.11.0/libthrift-0.11.0.jar!/org/apache/thrift/meta_data/EnumMetaData.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/thrift/libthrift/0.11.0/libthrift-0.11.0.jar!/org/apache/thrift/meta_data/FieldMetaData.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/thrift/libthrift/0.11.0/libthrift-0.11.0.jar!/org/apache/thrift/meta_data/ListMetaData.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/thrift/libthrift/0.11.0/libthrift-0.11.0.jar!/org/apache/thrift/protocol/TCompactProtocol.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/thrift/libthrift/0.11.0/libthrift-0.11.0.jar!/org/apache/thrift/protocol/TSimpleJSONProtocol.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/thrift/libthrift/0.11.0/libthrift-0.11.0.jar!/org/apache/thrift/protocol/TTupleProtocol.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/nio/channels/spi/SelectorProvider.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/nio/channels/SocketChannel.java" />
+    <entry file="file://$PROJECT_DIR$/min-system-service/src/test/java/com/acme/service/minsystemservice/NIOClient.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/net/Socket.java" />
+    <entry file="file://$PROJECT_DIR$/min-system-service/src/test/java/com/acme/service/minsystemservice/Test.java" />
+    <entry file="file://$PROJECT_DIR$/min-system-service/src/main/java/com/acme/service/minsystemservice/controller/CalculateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="43" column="57" lean-forward="false" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="57" />
           <folding>
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE.jar!/org/springframework/web/bind/annotation/RestController.class">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding>
-            <marker date="1564070551820" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1564070551820" expanded="false" signature="163:459" ph="..." />
-            <marker date="1564070551820" expanded="true" signature="461:562" ph="@{...}" />
-            <marker date="1564070551820" expanded="true" signature="602:656" ph="@{...}" />
-          </folding>
+        <state relative-caret-position="525">
+          <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/min-system-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/acme/service/min-system-core/1.0.0-SNAPSHOT/min-system-core-1.0.0-SNAPSHOT.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/thrift/libthrift/0.11.0/libthrift-0.11.0-sources.jar!/org/apache/thrift/protocol/TTupleProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/min-system-service/src/main/java/com/acme/service/minsystemservice/MinSystemServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -614,45 +1107,494 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/min-system-service/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/min-system-service/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/min-system-service/src/test/java/com/acme/service/minsystemservice/MinSystemServiceApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="189">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/acme/regist-center-core/1.0.0-SNAPSHOT/regist-center-core-1.0.0-SNAPSHOT.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-579">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$MAVEN_REPOSITORY$/com/acme/service/min-system-core/1.0.0-SNAPSHOT/min-system-core-1.0.0-SNAPSHOT.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="210">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar!/org/springframework/stereotype/Controller.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE.jar!/org/springframework/web/bind/annotation/RestController.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="157" column="0" lean-forward="false" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/ConstructorResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="456" column="0" lean-forward="false" selection-start-line="456" selection-start-column="0" selection-end-line="456" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="1159" column="0" lean-forward="false" selection-start-line="1159" selection-start-column="0" selection-end-line="1159" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.6.RELEASE/spring-boot-2.1.6.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="769" column="0" lean-forward="false" selection-start-line="769" selection-start-column="0" selection-end-line="769" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/acme/regist-center-core/1.0.0-SNAPSHOT/regist-center-core-1.0.0-SNAPSHOT.jar!/com/acme/rc/Dto/MachineInfoParam.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/acme/regist-center-core/1.0.0-SNAPSHOT/regist-center-core-1.0.0-SNAPSHOT.jar!/com/acme/rc/service/TRegistCenter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="3842" column="0" lean-forward="false" selection-start-line="3842" selection-start-column="0" selection-end-line="3842" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.jar!/src/java/net/Socket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="913" column="35" lean-forward="false" selection-start-line="913" selection-start-column="31" selection-end-line="913" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/thrift/libthrift/0.11.0/libthrift-0.11.0-sources.jar!/org/apache/thrift/protocol/TProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/thrift/libthrift/0.11.0/libthrift-0.11.0-sources.jar!/org/apache/thrift/TServiceClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/thrift/libthrift/0.11.0/libthrift-0.11.0-sources.jar!/org/apache/thrift/protocol/TBinaryProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="424" column="0" lean-forward="false" selection-start-line="424" selection-start-column="0" selection-end-line="424" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/thrift/libthrift/0.11.0/libthrift-0.11.0-sources.jar!/org/apache/thrift/transport/TMemoryInputTransport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="903">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/thrift/libthrift/0.11.0/libthrift-0.11.0-sources.jar!/org/apache/thrift/transport/TIOStreamTransport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2205">
+          <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/thrift/libthrift/0.11.0/libthrift-0.11.0-sources.jar!/org/apache/thrift/transport/TTransport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1617">
+          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/thrift/libthrift/0.11.0/libthrift-0.11.0-sources.jar!/org/apache/thrift/transport/TFramedTransport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2898">
+          <caret line="173" column="26" lean-forward="false" selection-start-line="173" selection-start-column="26" selection-end-line="173" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1869">
+          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding>
+            <marker date="1564070551820" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1564070551820" expanded="false" signature="162:754" ph="..." />
+            <marker date="1564070551820" expanded="false" signature="1216:1227" ph=" { " />
+            <marker date="1564070551820" expanded="false" signature="1248:1254" ph=" }" />
+            <marker date="1564070551820" expanded="false" signature="1317:1328" ph=" { " />
+            <marker date="1564070551820" expanded="false" signature="1348:1354" ph=" }" />
+            <marker date="1564070551820" expanded="true" signature="1476:1532" ph="{...}" />
+            <marker date="1564070551820" expanded="true" signature="1611:1670" ph="{...}" />
+            <marker date="1564070551820" expanded="true" signature="1780:1831" ph="{...}" />
+            <marker date="1564070551820" expanded="true" signature="1925:1996" ph="{...}" />
+            <marker date="1564070551820" expanded="true" signature="2160:2419" ph="{...}" />
+            <marker date="1564070551820" expanded="true" signature="2581:4038" ph="{...}" />
+            <marker date="1564070551820" expanded="true" signature="4117:5209" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/acme/service/min-system-core/1.0.0-SNAPSHOT/min-system-core-1.0.0-SNAPSHOT.jar!/com/acme/service/Dto/Expression.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <marker date="1575205047000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1575205047000" expanded="false" signature="144:1394" ph="..." />
+            <marker date="1575205047000" expanded="false" signature="2395:2406" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="2432:2438" ph=" }" />
+            <marker date="1575205047000" expanded="true" signature="2500:2663" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="2705:2941" ph="{...}" />
+            <marker date="1575205047000" expanded="false" signature="2975:2986" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="3014:3020" ph=" }" />
+            <marker date="1575205047000" expanded="true" signature="3046:3197" ph="{...}" />
+            <marker date="1575205047000" expanded="false" signature="3225:3236" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="3251:3257" ph=" }" />
+            <marker date="1575205047000" expanded="true" signature="3299:3349" ph="{...}" />
+            <marker date="1575205047000" expanded="false" signature="3376:3387" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="3402:3408" ph=" }" />
+            <marker date="1575205047000" expanded="false" signature="3438:3449" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="3472:3478" ph=" }" />
+            <marker date="1575205047000" expanded="true" signature="3522:3590" ph="{...}" />
+            <marker date="1575205047000" expanded="false" signature="3619:3630" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="3647:3653" ph=" }" />
+            <marker date="1575205047000" expanded="true" signature="3698:3785" ph="{...}" />
+            <marker date="1575205047000" expanded="false" signature="3814:3825" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="3898:3904" ph=" }" />
+            <marker date="1575205047000" expanded="false" signature="3936:3947" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="4002:4008" ph=" }" />
+            <marker date="1575205047000" expanded="true" signature="4054:4148" ph="{...}" />
+            <marker date="1575205047000" expanded="false" signature="4177:4188" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="4205:4211" ph=" }" />
+            <marker date="1575205047000" expanded="true" signature="4256:4343" ph="{...}" />
+            <marker date="1575205047000" expanded="false" signature="4372:4383" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="4456:4462" ph=" }" />
+            <marker date="1575205047000" expanded="false" signature="4494:4505" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="4560:4566" ph=" }" />
+            <marker date="1575205047000" expanded="true" signature="4612:4706" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="4778:5351" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="5411:5674" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="5727:6142" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="6183:6358" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="6403:7726" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="7754:8131" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="8176:9943" ph="{...}" />
+            <marker date="1575205047000" expanded="false" signature="9998:10009" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="10059:10065" ph=" }" />
+            <marker date="1575205047000" expanded="true" signature="10123:10171" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="10230:10279" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="10310:10919" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="10966:11123" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="11197:11380" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="11475:11695" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="11762:11895" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="11908:12492" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="12573:13881" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="12615:12626" ph="{}" />
+            <marker date="1575205047000" expanded="true" signature="12707:13291" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="13371:13875" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="13962:14164" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="14011:14022" ph="{}" />
+            <marker date="1575205047000" expanded="false" signature="14083:14098" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="14148:14158" ph=" }" />
+            <marker date="1575205047000" expanded="true" signature="14251:16657" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="14296:14307" ph="{}" />
+            <marker date="1575205047000" expanded="true" signature="14388:15901" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="15983:16651" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="16741:16952" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="16793:16804" ph="{}" />
+            <marker date="1575205047000" expanded="false" signature="16868:16883" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="16936:16946" ph=" }" />
+            <marker date="1575205047000" expanded="true" signature="17009:18694" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="17339:17589" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="17667:17935" ph="{...}" />
+            <marker date="1575205047000" expanded="false" signature="18001:18016" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="18060:18070" ph=" }" />
+            <marker date="1575205047000" expanded="true" signature="18130:18221" ph="{...}" />
+            <marker date="1575205047000" expanded="false" signature="18262:18277" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="18299:18309" ph=" }" />
+            <marker date="1575205047000" expanded="false" signature="18347:18362" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="18385:18395" ph=" }" />
+            <marker date="1575205047000" expanded="true" signature="18412:18688" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/acme/service/min-system-core/1.0.0-SNAPSHOT/min-system-core-1.0.0-SNAPSHOT.jar!/com/acme/service/service/TCalculate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20979">
+          <caret line="1109" column="25" lean-forward="false" selection-start-line="1109" selection-start-column="25" selection-end-line="1109" selection-end-column="25" />
+          <folding>
+            <marker date="1575205047000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1575205047000" expanded="false" signature="148:2448" ph="..." />
+            <marker date="1575205047000" expanded="true" signature="2500:2507" ph="{}" />
+            <marker date="1575205047000" expanded="true" signature="2699:19518" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="3472:3483" ph="{}" />
+            <marker date="1575205047000" expanded="true" signature="3566:3659" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="3728:3972" ph="{...}" />
+            <marker date="1575205047000" expanded="false" signature="4027:4042" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="4087:4097" ph=" }" />
+            <marker date="1575205047000" expanded="true" signature="4127:4199" ph="{...}" />
+            <marker date="1575205047000" expanded="false" signature="4245:4260" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="4280:4290" ph=" }" />
+            <marker date="1575205047000" expanded="true" signature="4372:4444" ph="{...}" />
+            <marker date="1575205047000" expanded="false" signature="4480:4495" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="4515:4525" ph=" }" />
+            <marker date="1575205047000" expanded="false" signature="4564:4579" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="4607:4617" ph=" }" />
+            <marker date="1575205047000" expanded="true" signature="4670:4759" ph="{...}" />
+            <marker date="1575205047000" expanded="false" signature="4802:4817" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="4832:4842" ph=" }" />
+            <marker date="1575205047000" expanded="true" signature="4916:4978" ph="{...}" />
+            <marker date="1575205047000" expanded="false" signature="5009:5024" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="5039:5049" ph=" }" />
+            <marker date="1575205047000" expanded="false" signature="5083:5098" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="5121:5131" ph=" }" />
+            <marker date="1575205047000" expanded="true" signature="5179:5263" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="5356:5838" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="5919:6170" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="6244:6653" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="6698:6931" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="6997:8112" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="8144:8615" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="8681:10023" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="10100:10191" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="10253:10309" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="10372:10429" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="10464:11129" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="11180:11287" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="11365:11572" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="11671:11876" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="11947:12088" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="12105:12724" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="12832:14253" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="12884:12899" ph="{}" />
+            <marker date="1575205047000" expanded="true" signature="13001:13590" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="13691:14243" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="14344:14622" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="14403:14418" ph="{}" />
+            <marker date="1575205047000" expanded="true" signature="14507:14612" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="14736:17128" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="14791:14806" ph="{}" />
+            <marker date="1575205047000" expanded="true" signature="14908:16323" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="16426:17118" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="17222:17509" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="17284:17299" ph="{}" />
+            <marker date="1575205047000" expanded="true" signature="17391:17499" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="17570:19512" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="17932:18172" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="18271:18584" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="18672:18765" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="18829:18932" ph="{...}" />
+            <marker date="1575205047000" expanded="false" signature="18977:18996" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="19018:19032" ph=" }" />
+            <marker date="1575205047000" expanded="false" signature="19074:19093" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="19116:19130" ph=" }" />
+            <marker date="1575205047000" expanded="true" signature="19151:19502" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="19702:32194" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="20315:20326" ph="{}" />
+            <marker date="1575205047000" expanded="true" signature="20374:20433" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="20498:20614" ph="{...}" />
+            <marker date="1575205047000" expanded="false" signature="20667:20682" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="20725:20735" ph=" }" />
+            <marker date="1575205047000" expanded="false" signature="20764:20779" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="20795:20805" ph=" }" />
+            <marker date="1575205047000" expanded="false" signature="20841:20856" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="20872:20882" ph=" }" />
+            <marker date="1575205047000" expanded="true" signature="20948:21012" ph="{...}" />
+            <marker date="1575205047000" expanded="false" signature="21044:21059" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="21075:21085" ph=" }" />
+            <marker date="1575205047000" expanded="false" signature="21120:21135" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="21159:21169" ph=" }" />
+            <marker date="1575205047000" expanded="true" signature="21218:21303" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="21394:21659" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="21738:21923" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="21995:22328" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="22373:22602" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="22666:23311" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="23343:23611" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="23675:24451" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="24526:24615" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="24677:24733" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="24796:24853" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="24888:25266" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="25317:25416" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="25494:25701" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="25800:26005" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="26076:26217" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="26234:26677" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="26781:27762" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="26831:26846" ph="{}" />
+            <marker date="1575205047000" expanded="true" signature="26946:27323" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="27422:27752" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="27851:28119" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="27908:27923" ph="{}" />
+            <marker date="1575205047000" expanded="true" signature="28008:28109" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="28229:29933" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="28282:28297" ph="{}" />
+            <marker date="1575205047000" expanded="true" signature="28397:29379" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="29480:29923" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="30025:30302" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="30085:30100" ph="{}" />
+            <marker date="1575205047000" expanded="true" signature="30188:30292" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="30363:32188" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="30681:30862" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="30959:31270" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="31356:31447" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="31511:31614" ph="{...}" />
+            <marker date="1575205047000" expanded="false" signature="31659:31678" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="31700:31714" ph=" }" />
+            <marker date="1575205047000" expanded="false" signature="31756:31775" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="31798:31812" ph=" }" />
+            <marker date="1575205047000" expanded="true" signature="31833:32178" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="32299:36556" ph="{...}" />
+            <marker date="1575205047000" expanded="false" signature="32454:32469" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="32512:32522" ph=" }" />
+            <marker date="1575205047000" expanded="true" signature="32635:32699" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="32898:33024" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="33174:36550" ph="{...}" />
+            <marker date="1575205047000" expanded="false" signature="33206:33225" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="33244:33258" ph=" }" />
+            <marker date="1575205047000" expanded="false" signature="33327:33346" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="33385:33399" ph=" }" />
+            <marker date="1575205047000" expanded="true" signature="33519:36235" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="33588:36220" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="33653:34411" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="34466:36202" ph="{...}" />
+            <marker date="1575205047000" expanded="false" signature="36277:36296" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="36309:36323" ph=" }" />
+            <marker date="1575205047000" expanded="true" signature="36467:36540" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="36668:38346" ph="{...}" />
+            <marker date="1575205047000" expanded="false" signature="36813:36828" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="36871:36881" ph=" }" />
+            <marker date="1575205047000" expanded="true" signature="36981:37045" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="37223:37344" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="37466:38340" ph="{...}" />
+            <marker date="1575205047000" expanded="false" signature="37498:37517" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="37536:37550" ph=" }" />
+            <marker date="1575205047000" expanded="false" signature="37619:37638" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="37677:37691" ph=" }" />
+            <marker date="1575205047000" expanded="false" signature="37733:37752" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="37765:37779" ph=" }" />
+            <marker date="1575205047000" expanded="false" signature="37836:37855" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="37868:37882" ph=" }" />
+            <marker date="1575205047000" expanded="true" signature="38000:38330" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="38438:41144" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="38569:38642" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="38761:39076" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="39164:40493" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="39412:39540" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="39611:39900" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="39988:40483" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="40586:41138" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="40794:40917" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="41009:41128" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="41228:42794" ph="{...}" />
+            <marker date="1575205047000" expanded="false" signature="41267:41282" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="41300:41310" ph=" }" />
+            <marker date="1575205047000" expanded="false" signature="41367:41382" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="41402:41412" ph=" }" />
+            <marker date="1575205047000" expanded="true" signature="41510:41601" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="41672:41837" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="41926:42352" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="42442:42788" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="42473:42488" ph="{}" />
+            <marker date="1575205047000" expanded="false" signature="42552:42571" ph=" { " />
+            <marker date="1575205047000" expanded="false" signature="42606:42620" ph=" }" />
+            <marker date="1575205047000" expanded="true" signature="42703:42778" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="42828:42938" ph="{...}" />
+            <marker date="1575205047000" expanded="true" signature="42967:43065" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/thrift/libthrift/0.11.0/libthrift-0.11.0-sources.jar!/org/apache/thrift/transport/TSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3864">
+          <caret line="215" column="26" lean-forward="false" selection-start-line="215" selection-start-column="26" selection-end-line="215" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/min-system-service/src/main/java/com/acme/service/minsystemservice/thriftconfig/ThriftServerBean.java" />
     <entry file="file://$PROJECT_DIR$/min-system-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="39" column="35" lean-forward="false" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+        <state relative-caret-position="1176">
+          <caret line="56" column="11" lean-forward="false" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/min-system-service/src/main/java/com/acme/service/minsystemservice/util/NetWorkUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/min-system-service/src/main/java/com/acme/service/minsystemservice/MinSystemServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/min-system-service/src/main/java/com/acme/service/minsystemservice/controller/CalculateController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="170">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/min-system-service/.gitignore">
+    <entry file="file://$PROJECT_DIR$/min-system-service/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state relative-caret-position="42">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/min-system-service/src/main/java/com/acme/service/minsystemservice/thriftconfig/ThriftClientConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
