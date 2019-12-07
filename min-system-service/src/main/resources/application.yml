@@ -2,7 +2,7 @@ server:
   port: 8081
 local:
   appKey: com.acme.msws
-  port: 8080
+  port: 8081
 
 RegistCenter:
   host: 127.0.0.1
@@ -13,5 +13,4 @@ ServiceGovernanc:
   port: 11000
 
 msts:
-  host: 127.0.0.1
-  port: 9000
+  appKey: com.acme.msts
