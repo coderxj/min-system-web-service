@@ -32,10 +32,6 @@ import java.util.concurrent.TimeUnit;
 @Configuration
 public class ThriftClientConfig {
 
-    @Value("${RegistCenter.host}")
-    private String registCenterHost;
-    @Value("${RegistCenter.port}")
-    private Integer registCenterPort;
     @Value("${ServiceGovernanc.host}")
     private String serviceGovernancHost;
     @Value("${ServiceGovernanc.port}")
@@ -50,17 +46,6 @@ public class ThriftClientConfig {
     private final ScheduledExecutorService executorService = Executors.newScheduledThreadPool(1);
     @Autowired
     private TServiceGovernance.Client tServiceGovernanceClient;
-
-
-    @Bean
-    public TRegistCenter.Client tRegistCenterClient() throws TTransportException {
-        TSocket socket = new TSocket(registCenterHost, registCenterPort, 20000);
-        TFramedTransport transport = new TFramedTransport(socket);
-        TProtocol protocol = new TBinaryProtocol(transport);
-        TRegistCenter.Client client = new TRegistCenter.Client(protocol);
-        transport.open();
-        return client;
-    }
 
     @Bean
     public TCalculate.Client tCalculateClient() throws TException {
